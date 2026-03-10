@@ -1,6 +1,6 @@
 # Build application
 # https://github.com/GoogleContainerTools/distroless/
-FROM golang:1.19 as build
+FROM golang:1.26 as build
 
 WORKDIR /go/src/app
 COPY . .
